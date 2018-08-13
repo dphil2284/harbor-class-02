@@ -29,7 +29,7 @@
               "children": [
                 {
                   "type": "span",
-                  "text": "Hello Colorful World 🖍",
+                  "text": "Hello World + ",
                   "props": {
                     "style": {
                       "lineHeight": "35px",

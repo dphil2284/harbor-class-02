@@ -32,7 +32,7 @@ class HomePage extends Component {
                 fontSize: "33px"
               }}
             >
-              Hello Colorful World.... 🖍
+              Hello World + [dphil2284]
             </span>
           </div>
         </div>
