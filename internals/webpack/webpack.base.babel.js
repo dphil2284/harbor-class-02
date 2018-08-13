@@ -11,7 +11,7 @@ module.exports = options => ({
     {
       // Compile into js/build.js
       path: path.resolve(process.cwd(), 'build'),
-      publicPath: '/structor-experiment/',
+      publicPath: '/harbor-class-02/',
     },
     options.output
   ), // Merge with env dependent settings

@@ -26,12 +26,13 @@ class HomePage extends Component {
           >
             <span
               style={{
-                lineHeight: "20px",
-                backgroundColor: "#b8e986",
-                color: "#4a90e2"
+                lineHeight: "35px",
+                backgroundColor: "#ffffff",
+                color: "#4a90e2",
+                fontSize: "33px"
               }}
             >
-              Hello Colorful World 🖍
+              Hello Colorful World.... 🖍
             </span>
           </div>
         </div>
