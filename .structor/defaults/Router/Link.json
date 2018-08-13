@@ -1,0 +1,19 @@
+[
+  {
+    "type": "Link",
+    "variant": "default",
+    "children": [
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {},
+        "children": [],
+        "text": "work"
+      }
+    ],
+    "namespace": "Router",
+    "props": {
+      "to": "/work"
+    }
+  }
+]

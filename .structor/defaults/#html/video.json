@@ -1,0 +1,20 @@
+[
+  {
+    "type": "video",
+    "variant": "default",
+    "props": {
+      "autoPlay": true,
+      "loop": true,
+      "muted": true
+    },
+    "children": [
+      {
+        "type": "source",
+        "props": {
+          "src": "https://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4",
+          "type": "video/mp4"
+        }
+      }
+    ]
+  }
+]

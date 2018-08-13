@@ -1,0 +1,74 @@
+{
+  "pages": [
+    {
+      "pageName": "HomePage",
+      "pagePath": "/home",
+      "children": [
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "color": "#6b6161"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px",
+                  "backgroundColor": "#fcecd7",
+                  "borderRadius": "4px",
+                  "textAlign": "center",
+                  "paddingTop": "40px",
+                  "paddingBottom": "40px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "Hello Colorful World 🖍",
+                  "props": {
+                    "style": {
+                      "lineHeight": "20px",
+                      "backgroundColor": "#b8e986",
+                      "color": "#4a90e2"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page6",
+      "pagePath": "/work",
+      "children": [
+        {
+          "type": "div",
+          "children": [
+            {
+              "type": "h3",
+              "props": {
+                "style": {
+                  "textAlign": "center",
+                  "padding": "15px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "work page"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

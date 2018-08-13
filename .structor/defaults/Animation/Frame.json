@@ -1,0 +1,51 @@
+[
+  {
+    "type": "Frame",
+    "variant": "default",
+    "children": [
+      {
+        "type": "OnTap",
+        "variant": "default",
+        "children": [
+          {
+            "type": "span",
+            "variant": "default",
+            "props": {},
+            "children": [],
+            "text": "Tap"
+          }
+        ],
+        "namespace": "Animation",
+        "props": {
+          "style": {
+            "textAlign": "center"
+          }
+        }
+      },
+      {
+        "type": "Animate",
+        "variant": "default",
+        "children": [
+          {
+            "type": "span",
+            "variant": "default",
+            "props": {},
+            "children": [],
+            "text": "Animate me"
+          }
+        ],
+        "namespace": "Animation",
+        "props": {
+          "to": {
+            "scale": 3
+          },
+          "style": {
+            "textAlign": "center"
+          }
+        }
+      }
+    ],
+    "namespace": "Animation",
+    "props": {}
+  }
+]

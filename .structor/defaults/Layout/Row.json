@@ -1,0 +1,62 @@
+[
+  {
+    "type": "Row",
+    "variant": "default",
+    "children": [],
+    "namespace": "Layout"
+  },
+  {
+    "type": "Row",
+    "namespace": "Layout",
+    "variant": "example-01",
+    "props": {
+      "style": {
+        "backgroundColor": "#ec4040"
+      }
+    },
+    "children": [
+      {
+        "type": "Column",
+        "variant": "default",
+        "children": [
+          {
+            "type": "span",
+            "variant": "default",
+            "props": {},
+            "children": [],
+            "text": "Text"
+          }
+        ],
+        "namespace": "Layout",
+        "props": {
+          "col": 6,
+          "style": {
+            "backgroundColor": "#4a90e2"
+          },
+          "mCol": 2
+        }
+      },
+      {
+        "type": "Column",
+        "variant": "default",
+        "children": [
+          {
+            "type": "span",
+            "variant": "default",
+            "props": {},
+            "children": [],
+            "text": "Text"
+          }
+        ],
+        "namespace": "Layout",
+        "props": {
+          "col": 6,
+          "style": {
+            "backgroundColor": "#4a90e2"
+          },
+          "mCol": 2
+        }
+      }
+    ]
+  }
+]
