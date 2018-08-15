@@ -17,22 +17,15 @@ class HomePage extends Component {
           <div
             style={{
               height: "100px",
-              backgroundColor: "#fcecd7",
+              backgroundColor: "#ffffff",
               borderRadius: "4px",
               textAlign: "center",
               paddingTop: "40px",
               paddingBottom: "40px"
             }}
           >
-            <span
-              style={{
-                lineHeight: "35px",
-                backgroundColor: "#ffffff",
-                color: "#4a90e2",
-                fontSize: "33px"
-              }}
-            >
-              Hello World + [dphil2284]
+            <span style={{ lineHeight: "35px", fontSize: "33px" }}>
+              Hello World +{" "}
             </span>
           </div>
         </div>

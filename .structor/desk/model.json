@@ -33,8 +33,6 @@
                   "props": {
                     "style": {
                       "lineHeight": "35px",
-                      "backgroundColor": "#ffffff",
-                      "color": "#4a90e2",
                       "fontSize": "33px"
                     }
                   }
