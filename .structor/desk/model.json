@@ -16,26 +16,98 @@
             {
               "type": "div",
               "variant": "default",
-              "props": {
-                "style": {
-                  "height": "100px",
-                  "backgroundColor": "#fcecd7",
-                  "borderRadius": "4px",
-                  "textAlign": "center",
-                  "paddingTop": "40px",
-                  "paddingBottom": "40px"
-                }
-              },
+              "props": {},
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
               "children": [
                 {
-                  "type": "span",
-                  "text": "Hello World + ",
+                  "type": "div",
+                  "variant": "default",
                   "props": {
                     "style": {
-                      "lineHeight": "35px",
-                      "fontSize": "33px"
+                      "display": "block",
+                      "justifyContent": "center",
+                      "height": "300px",
+                      "alignItems": "center",
+                      "backgroundColor": "#272727",
+                      "borderRadius": "4px",
+                      "width": "300px",
+                      "margin": "30px",
+                      "textAlign": "center"
                     }
-                  }
+                  },
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {},
+                      "children": []
+                    },
+                    {
+                      "type": "img",
+                      "variant": "default",
+                      "props": {
+                        "src": "https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-1/p320x320/26731266_103396393805011_6010591048482941004_n.jpg?_nc_cat=0&oh=5bb0dcbabb4f6809855f304dae93ed1b&oe=5C138A28",
+                        "style": {
+                          "width": "150px",
+                          "display": "inline-block",
+                          "margin": "22px"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "span",
+                      "text": "Hyun Sung Lee",
+                      "props": {
+                        "style": {
+                          "display": "inline-block",
+                          "color": "#ffffff",
+                          "margin": "10px"
+                        }
+                      }
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block",
+                          "color": "#ffffff"
+                        }
+                      },
+                      "children": [],
+                      "text": "안녕하세요"
+                    },
+                    {
+                      "type": "a",
+                      "variant": "default",
+                      "props": {
+                        "href": "https://www.facebook.com/profile.php?id=100024039511819",
+                        "style": {
+                          "fontStyle": "normal",
+                          "color": "#ffffff",
+                          "fontSize": "11px"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "facebook/01022842506",
+                          "props": {
+                            "style": {
+                              "textDecoration": "none",
+                              "textTransform": "none"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -62,6 +134,45 @@
                 {
                   "type": "span",
                   "text": "work page"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page913",
+      "pagePath": "/harbor-class2",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "style": {
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "padding": "1em"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "children": [
+                {
+                  "type": "h3",
+                  "props": {
+                    "style": {
+                      "padding": "1em",
+                      "textAlign": "center"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Click on me and start creating a new cool component."
+                    }
+                  ]
                 }
               ]
             }
