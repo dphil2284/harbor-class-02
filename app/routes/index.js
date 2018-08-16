@@ -1,7 +1,9 @@
 import React from "react";
+import Page152 from "./Page152";
 import HomePage from "./HomePage";
 import Page6 from "./Page6";
 import Page913 from "./Page913";
+import Page106 from "./Page106";
 
 class App extends React.Component {
   render() {
@@ -16,8 +18,13 @@ class App extends React.Component {
 export default {
   path: "/",
   component: App,
-  indexRoute: { component: HomePage },
+  indexRoute: { component: Page152 },
   childRoutes: [
+    {
+      path: "/class-03",
+      name: "/class-03",
+      component: Page152
+    },
     {
       path: "/home",
       name: "/home",
@@ -34,9 +41,14 @@ export default {
       component: Page913
     },
     {
+      path: "/col",
+      name: "/col",
+      component: Page106
+    },
+    {
       path: "*",
       name: "notfound",
-      component: HomePage
+      component: Page152
     }
   ]
 };

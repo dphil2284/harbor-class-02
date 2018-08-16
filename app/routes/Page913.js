@@ -6,6 +6,9 @@
 
 import React, { Component } from "react";
 
+import { Row } from "modules/Layout";
+import { Center } from "modules/CSSPaterns";
+
 class Page913 extends Component {
   // eslint-disable-line react/prefer-stateless-function
 
@@ -13,20 +16,21 @@ class Page913 extends Component {
     return (
       <div>
 
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            padding: "1em"
-          }}
-        >
-          <div>
-            <h3 style={{ padding: "1em", textAlign: "center" }}>
-              <span>Click on me and start creating a new cool component.</span>
-            </h3>
+        <div><Row /></div>
+
+        <Center axis="x">
+          <div
+            style={{
+              display: "inline-block",
+              justifyContent: "center",
+              alignItems: "center",
+              backgroundColor: "#fcecd7",
+              borderRadius: "4px"
+            }}
+          >
+            <span>Empty div</span>
           </div>
-        </div>
+        </Center>
 
       </div>
     ); // eslint-disable-line
