@@ -37,14 +37,19 @@ class Page1298 extends Component {
                   justifyContent: "center",
                   height: "50px",
                   alignItems: "center",
-                  backgroundColor: "#fcecd7",
+                  backgroundColor: "#ffffff",
                   borderRadius: "4px",
                   width: "50px",
                   position: "absolute",
                   marginTop: "2.5%",
                   marginLeft: "2%"
                 }}
-              />
+              >
+                <img
+                  src="https://github.com/dphil2284/harbor-class-02/blob/master/app/image/dphi-logo__.png?raw=true"
+                  style={{ width: "100%" }}
+                />
+              </div>
               <div
                 style={{
                   display: "inline-block",
@@ -58,7 +63,8 @@ class Page1298 extends Component {
                   style={{
                     padding: "10px",
                     display: "block",
-                    fontSize: "16px"
+                    fontSize: "16px",
+                    color: "#b5b5b5"
                   }}
                 >
                   Contact
@@ -85,7 +91,8 @@ class Page1298 extends Component {
                   style={{
                     padding: "10px",
                     display: "block",
-                    fontSize: "16px"
+                    fontSize: "16px",
+                    color: "#b5b5b5"
                   }}
                 >
                   About Me
@@ -133,22 +140,25 @@ class Page1298 extends Component {
           <div>
             <div
               style={{
-                height: "100px",
+                height: "149px",
                 backgroundColor: "#ffffff",
                 borderRadius: "4px",
                 position: "relative",
-                display: "block"
+                display: "block",
+                marginTop: "43px",
+                marginBottom: "24px"
               }}
             >
               <span
                 style={{
                   display: "inline-block",
                   position: "absolute",
-                  fontSize: "24px",
-                  top: "25%",
-                  left: "41%",
+                  fontSize: "43px",
+                  top: "28%",
+                  left: "32.5%",
                   fontWeight: 400,
-                  color: "#1106ff"
+                  color: "#1106ff",
+                  fontFamily: "Sawarabi Mincho"
                 }}
               >
                 Hyun Sung Lee
@@ -157,9 +167,9 @@ class Page1298 extends Component {
                 style={{
                   display: "inline-block",
                   position: "absolute",
-                  fontSize: "15px",
-                  top: "25%",
-                  left: "38.5%",
+                  fontSize: "21px",
+                  top: "46%",
+                  left: "34.5%",
                   fontWeight: 300,
                   marginTop: "27px",
                   color: "#b0b0b0"
