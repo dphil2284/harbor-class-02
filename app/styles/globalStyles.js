@@ -16,6 +16,8 @@ injectGlobal`
   /* Fonts */
   ${FuturaPTWeb}
   ${Omnes}
+  @import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+
   /* Icons */
   /* Body Styles */
   body {
