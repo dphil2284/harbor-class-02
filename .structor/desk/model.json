@@ -836,7 +836,7 @@
                           "backgroundColor": "#ffffff",
                           "position": "absolute",
                           "marginTop": "2.5%",
-                          "right": "8%"
+                          "right": "9%"
                         }
                       },
                       "children": [
@@ -875,7 +875,7 @@
                           "backgroundColor": "#ffffff",
                           "position": "absolute",
                           "marginTop": "2.5%",
-                          "right": "17%"
+                          "right": "18.5%"
                         }
                       },
                       "children": [
@@ -914,7 +914,7 @@
                           "backgroundColor": "#ffffff",
                           "position": "absolute",
                           "marginTop": "2.5%",
-                          "right": "28%"
+                          "right": "30%"
                         }
                       },
                       "children": [
@@ -1040,7 +1040,19 @@
                               "marginLeft": "22px"
                             }
                           },
-                          "children": []
+                          "children": [
+                            {
+                              "type": "img",
+                              "variant": "default",
+                              "props": {
+                                "src": "https://github.com/dphil2284/harbor-class-02/blob/master/app/image/Portfolio-thumb.png?raw=true",
+                                "style": {
+                                  "width": "100%"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
                         },
                         {
                           "type": "div",
