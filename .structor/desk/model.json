@@ -10,7 +10,7 @@
             "style": {
               "display": "block",
               "width": "100%",
-              "margin": "30px",
+              "margin": "34px",
               "height": "100%"
             }
           },
@@ -84,7 +84,7 @@
                             "style": {
                               "padding": "10px",
                               "display": "block",
-                              "fontSize": "16px",
+                              "fontSize": "20px",
                               "color": "#b5b5b5"
                             }
                           }
@@ -113,7 +113,7 @@
                           "backgroundColor": "#ffffff",
                           "position": "absolute",
                           "marginTop": "2.5%",
-                          "right": "18.5%"
+                          "right": "20.5%"
                         }
                       },
                       "children": [
@@ -124,7 +124,7 @@
                             "style": {
                               "padding": "10px",
                               "display": "block",
-                              "fontSize": "16px",
+                              "fontSize": "20px",
                               "color": "#b5b5b5"
                             }
                           }
@@ -153,16 +153,10 @@
                           "backgroundColor": "#ffffff",
                           "position": "absolute",
                           "marginTop": "2.5%",
-                          "right": "30%"
+                          "right": "34%"
                         }
                       },
                       "children": [
-                        {
-                          "type": "div",
-                          "variant": "default",
-                          "props": {},
-                          "children": []
-                        },
                         {
                           "type": "span",
                           "text": "Work",
@@ -170,7 +164,7 @@
                             "style": {
                               "padding": "10px",
                               "display": "block",
-                              "fontSize": "16px",
+                              "fontSize": "19px",
                               "color": "#1106ff"
                             }
                           },
@@ -210,7 +204,7 @@
                       "borderRadius": "4px",
                       "position": "relative",
                       "display": "block",
-                      "marginTop": "43px",
+                      "marginTop": "65px",
                       "marginBottom": "24px"
                     }
                   },
@@ -224,7 +218,7 @@
                           "position": "absolute",
                           "fontSize": "43px",
                           "top": "28%",
-                          "left": "32.5%",
+                          "left": "33.5%",
                           "fontWeight": 400,
                           "color": "#1106ff",
                           "fontFamily": "Sawarabi Mincho"
@@ -240,7 +234,7 @@
                           "position": "absolute",
                           "fontSize": "21px",
                           "top": "46%",
-                          "left": "34.5%",
+                          "left": "36.5%",
                           "fontWeight": 300,
                           "marginTop": "27px",
                           "color": "#b0b0b0"

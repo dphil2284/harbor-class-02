@@ -17,7 +17,7 @@ class Page1298 extends Component {
           style={{
             display: "block",
             width: "100%",
-            margin: "30px",
+            margin: "33px",
             height: "100%"
           }}
         >
@@ -63,7 +63,7 @@ class Page1298 extends Component {
                   style={{
                     padding: "10px",
                     display: "block",
-                    fontSize: "16px",
+                    fontSize: "20px",
                     color: "#b5b5b5"
                   }}
                 >
@@ -84,14 +84,14 @@ class Page1298 extends Component {
                   backgroundColor: "#ffffff",
                   position: "absolute",
                   marginTop: "2.5%",
-                  right: "18.5%"
+                  right: "20.5%"
                 }}
               >
                 <span
                   style={{
                     padding: "10px",
                     display: "block",
-                    fontSize: "16px",
+                    fontSize: "20px",
                     color: "#b5b5b5"
                   }}
                 >
@@ -112,15 +112,14 @@ class Page1298 extends Component {
                   backgroundColor: "#ffffff",
                   position: "absolute",
                   marginTop: "2.5%",
-                  right: "30%"
+                  right: "34%"
                 }}
               >
-                <div />
                 <span
                   style={{
                     padding: "10px",
                     display: "block",
-                    fontSize: "16px",
+                    fontSize: "19px",
                     color: "#1106ff"
                   }}
                 >
@@ -145,7 +144,7 @@ class Page1298 extends Component {
                 borderRadius: "4px",
                 position: "relative",
                 display: "block",
-                marginTop: "43px",
+                marginTop: "65px",
                 marginBottom: "24px"
               }}
             >
@@ -155,7 +154,7 @@ class Page1298 extends Component {
                   position: "absolute",
                   fontSize: "43px",
                   top: "28%",
-                  left: "32.5%",
+                  left: "33.5%",
                   fontWeight: 400,
                   color: "#1106ff",
                   fontFamily: "Sawarabi Mincho"
@@ -169,7 +168,7 @@ class Page1298 extends Component {
                   position: "absolute",
                   fontSize: "21px",
                   top: "46%",
-                  left: "34.5%",
+                  left: "36.5%",
                   fontWeight: 300,
                   marginTop: "27px",
                   color: "#b0b0b0"
