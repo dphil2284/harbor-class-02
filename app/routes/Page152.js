@@ -139,7 +139,7 @@ class Page152 extends Component {
               }}
             />
           </div>
-          <div style={{ right: "0px" }}>
+          <div style={{ position: "relative", height: "42px" }}>
             <div
               style={{
                 display: "block",
@@ -147,10 +147,10 @@ class Page152 extends Component {
                 height: "10px",
                 alignItems: "center",
                 backgroundColor: "#a0a0a0",
-                marginTop: "12px",
                 width: "150px",
                 position: "absolute",
-                right: "0px"
+                right: "0px",
+                marginTop: "5px"
               }}
             />
           </div>
