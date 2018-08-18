@@ -1,6 +1,6 @@
 import React from "react";
 import Page152 from "./Page152";
-import Page379 from "./Page379";
+import Page1298 from "./Page1298";
 import Page55 from "./Page55";
 import HomePage from "./HomePage";
 import Page6 from "./Page6";
@@ -30,7 +30,7 @@ export default {
     {
       path: "/Portfolio-01",
       name: "/Portfolio-01",
-      component: Page379
+      component: Page1298
     },
     {
       path: "/class-04",

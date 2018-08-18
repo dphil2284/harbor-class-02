@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "pageName": "Page721",
+      "pageName": "Page1298",
       "pagePath": "/Portfolio-01",
       "children": [
         {
@@ -33,6 +33,25 @@
                     }
                   },
                   "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block",
+                          "justifyContent": "center",
+                          "height": "50px",
+                          "alignItems": "center",
+                          "backgroundColor": "#fcecd7",
+                          "borderRadius": "4px",
+                          "width": "50px",
+                          "position": "absolute",
+                          "marginTop": "2.5%",
+                          "marginLeft": "2%"
+                        }
+                      },
+                      "children": []
+                    },
                     {
                       "type": "div",
                       "variant": "default",
@@ -124,23 +143,6 @@
                         }
                       },
                       "children": [
-                        {
-                          "type": "div",
-                          "variant": "default",
-                          "props": {
-                            "style": {
-                              "display": "block",
-                              "justifyContent": "center",
-                              "height": "30px",
-                              "alignItems": "center",
-                              "backgroundColor": "#fcecd7",
-                              "borderRadius": "4px",
-                              "width": "30px",
-                              "position": "absolute"
-                            }
-                          },
-                          "children": []
-                        },
                         {
                           "type": "div",
                           "variant": "default",
